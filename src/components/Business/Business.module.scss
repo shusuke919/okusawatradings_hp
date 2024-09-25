@@ -60,14 +60,13 @@
 }
 
 .description {
+  margin-bottom: 1rem;
   font-size: 1.125rem; /* 18px */
   @include sp {
     font-size: 1rem; /* 16px */
     margin-right: 30%;
   }
 }
-
-
 
 .separator {
   border-top: 2px solid black; /* 線のスタイル */

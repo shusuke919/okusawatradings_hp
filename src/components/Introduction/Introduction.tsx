@@ -4,28 +4,34 @@ import styles from "./Introduction.module.scss";
 const Introduction = () => {
   return (
     <section className={styles.introduction}>
-      <div className={styles.topBlur}></div>
+      {/* <div className={styles.topBlur}></div> */}
       <div className={styles.missionArea}>
         <h1 className={styles.title}>Company</h1>
         <h2 className={styles.subTitle}>MISSION</h2>
         <p className={styles.description}>
-          目の前の1人が抱える課題を見つけ、
+          クライアント一人ひとりの真のニーズを探り、
           <br />
-          深く本質を問い続ける。
+          単なる表面的な解決ではなく、
           <br />
-          改善ではなく、根本的な解決のために
+          その課題の根源を深く見極める。
           <br />
-          社会構造を変えるほどの市場インパクトをもたらす。
+          私たちはWeb制作とシステム構築を通じて、
           <br />
-          半径1mにあるイシューと、巨大なマーケット。
+          社会全体に変革をもたらすプロダクトを創造する。
           <br />
-          その交差する点にプロダクトを創り出し、
+          個別の課題に向き合いながらも、
           <br />
-          社会に非連続な成長≒10xを届けていく。
+          それが大きな市場の流れと繋がるような影響力を持つ。
+          <br />
+          1つのプロダクトが、
+          <br />
+          未来を変える力を持つと信じているからこそ、
+          <br />
+          私たちは日々挑戦し続ける。
           <br />
         </p>
       </div>
-      <div className={styles.memberArea}>
+      {/* <div className={styles.memberArea}>
         <h2 className={styles.subTitle}>LEADERSHIP</h2>
         <div className={styles.leadershipContent}>
           <div className={styles.photoContainer}>
@@ -57,8 +63,7 @@ const Introduction = () => {
             これからも、障害者の方々とその家族が笑顔でいられる社会の実現に向けて、誠心誠意努力してまいります。
           </p>
         </div>
-      </div>
-      <div className={styles.bottomBlur}></div>
+      </div> */}
     </section>
   );
 };

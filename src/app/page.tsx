@@ -12,10 +12,9 @@ export default function Home() {
       <main className="relative z-10">
         <MainLogo />
         <Introduction />
-        <Business/>
-        <Contents />
+        <Business />
+        {/* <Contents /> */}
         <Contact />
-      
       </main>
     </div>
   );

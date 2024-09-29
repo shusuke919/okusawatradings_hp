@@ -13,7 +13,7 @@ export default function Home() {
         <MainLogo />
         <Introduction />
         <Business />
-        {/* <Contents /> */}
+        <Contents />
         <Contact />
       </main>
     </div>

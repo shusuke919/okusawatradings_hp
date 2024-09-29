@@ -10,13 +10,16 @@
   color: white;
   font-size: 3rem; /* text-3xl equivalent */
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.8);
+  @include sp {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
 .logoWrapper {
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.7); /* 背景透過で少し暗めに */
   padding: 1rem 2rem;
   border-radius: 10px;
-  @include sp {
-    width: 100%; /* w-1/2 equivalent */
-  }
 }

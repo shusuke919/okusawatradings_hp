@@ -19,7 +19,7 @@ const Contact = () => {
             電話でのお問い合わせ
           </a> */}
           <a
-            href="https://forms.gle/your-google-form-link"
+            href="https://forms.gle/tGykqtrNHKBLC95F8"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.button}

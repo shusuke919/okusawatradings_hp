@@ -24,8 +24,9 @@ const Contact = () => {
             rel="noopener noreferrer"
             className={styles.button}
           >
-            お問い合わせ
+            メールでのお問い合わせ
           </a>
+          <p>※初回時はメールでのお問い合わせのみとさせていただきます</p>
         </div>
       </div>
 

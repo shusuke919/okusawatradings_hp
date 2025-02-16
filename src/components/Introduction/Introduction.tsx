@@ -1,10 +1,20 @@
 import React from "react";
 import styles from "./Introduction.module.scss";
+import Link from "next/link";
+import { CalendarIcon } from "lucide-react";
 
 const Introduction = () => {
   return (
     <section className={styles.introduction}>
       {/* <div className={styles.topBlur}></div> */}
+      <div className="flex justify-center mt-12">
+        <Link href="/reservation">
+          <button className="flex items-center gap-3 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-semibold text-lg py-4 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+            <CalendarIcon className="w-6 h-6" />
+            <span>打ち合わせ予約はこちら</span>
+          </button>
+        </Link>
+      </div>
       <div className={styles.missionArea}>
         <h1 className={styles.title}>Company</h1>
         <h2 className={styles.subTitle}>MISSION</h2>

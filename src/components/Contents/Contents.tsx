@@ -2,20 +2,6 @@ import React from "react";
 import styles from "./Contents.module.scss";
 
 const Contents = () => {
-  const facilities = [
-    {
-      name: "ピースⅠ",
-      photo: "/assets/yao_1.jpg",
-      message: "八尾市店の説明文がここに入ります。",
-      address: "大阪府八尾市中田1-3 友田コーポ141",
-    },
-    {
-      name: "ピースⅡ",
-      photo: "/assets/yao_1.jpg",
-      message: "大阪市店の説明文がここに入ります。",
-      address: "大阪府八尾市美園3-78-1 ピアパーク美園401 402",
-    },
-  ];
 
   return (
     <section className={styles.introduction}>

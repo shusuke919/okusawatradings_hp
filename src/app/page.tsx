@@ -11,6 +11,7 @@ export default function Home() {
       <MainVisual />
       <main className="relative z-10">
         <MainLogo />
+
         <Introduction />
         <Business />
         <Contents />

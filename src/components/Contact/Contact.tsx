@@ -28,6 +28,13 @@ const Contact = () => {
           </a>
           <p>※初回時はメールでのお問い合わせのみとさせていただきます</p>
         </div>
+
+        {/* 住所情報の追加 */}
+        <div className={styles.address}>
+          <p>〒145-0062</p>
+          <p>東京都大田区北千束２丁目２２－４</p>
+          <p>ミリアレジデンス洗足603</p>
+        </div>
       </div>
 
       <div className={styles.bottomBlur}></div>
